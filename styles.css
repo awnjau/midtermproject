@@ -2,13 +2,161 @@ body, html {
 margin:0;
 padding:0;
 }
-.flex-container{
+h1{
+  text-align:center;
+}
+h2{
+  text-align:center;
+}
+.flex-container1{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-image: url("background_1_01.jpg");
+  background-size: cover;
+  min-height: 100vh;
+
 }
-  .div-main{
-  background-image: url("background.jpg");
+
+.div-1{
+  color: white;
+  font-size:250%;
+  font-family:garamond;
+  position: relative;
+
+
+
+}
+.div-2{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.flex-container2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  background-image: url("background_2_02.jpg");
   background-size: cover;
   min-height: 100vh;
   background-position: center center;
+}
+.div-3{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+
+}
+.div-4{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.div-5{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.flex-container3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("background_3_03.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+.div-6{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+    border-color: white;
+    border-width:5px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+.div-7{
+    color: white;
+    font-size: 200%;
+    font-family:garamond;
+    text-align: left;
+    width:50%;
+    height:auto;
+    margin:auto;
+}
+.div-a{
+  text-align:center;
+}
+.div-8{
+    color: white;
+    font-size: 200%;
+    font-family:garamond;
+    text-align: center;
+    width:50%;
+    height:auto;
+    margin:auto;
+}
+.flex-container4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("background_4_04.jpg");
+  background-size: cover;
+  min-height: 100vh;
+
+}
+.div-9{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.div-10{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.div-11{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.flex-container5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("background_5_05.jpg");
+  background-size: cover;
+  min-height: 100vh;
+
+}
+.div-12{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.div-13{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
+}
+.div-14{
+    color: white;
+    font-size: 150%;
+    font-family:garamond;
+    text-align: center;
 }
