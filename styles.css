@@ -414,7 +414,7 @@ font-family: 'Changa', sans-serif;
 .div-14{
   color: white;
   font-family: 'Changa', sans-serif;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -441,4 +441,8 @@ font-family: 'Changa', sans-serif;
   height:auto;
   margin:auto;
   font-size: 130%;
+}
+.div-14d{
+font-size:130%;
+ text-align:center;
 }
