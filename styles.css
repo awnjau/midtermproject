@@ -13,7 +13,8 @@ h1{
   text-align:center;
 }
 img{
-  width:300px;height:auto;
+  width:350px;height:auto;
+
 }
 a:visited {
   color: firebrick;
@@ -23,7 +24,7 @@ a:hover {
 }
 .div-3 {
   position: relative;
-  width: 300px;
+  width: 350px;
 }
 
 
@@ -55,7 +56,7 @@ a:hover {
 
 .div-4 {
   position: relative;
-  width: 300px;
+  width: 350px;
 }
 
 
@@ -86,7 +87,7 @@ a:hover {
 }
 .div-5 {
   position: relative;
-  width: 300px;
+  width: 350px;
 }
 
 
@@ -161,7 +162,6 @@ a:hover {
     font-size: 200%;
     font-family: 'Changa', sans-serif;
     text-align: center;
-
 
 }
 .div-4{
