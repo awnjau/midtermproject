@@ -15,10 +15,107 @@ h1{
 img{
   width:300px;height:auto;
 }
-img:hover {
-  background-color: #ddd;
-  color: black;
+a:visited {
+  color: firebrick;
 }
+a:hover {
+  color: fuchsia;
+}
+.div-3 {
+  position: relative;
+  width: 300px;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.div-3:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+
+.div-4 {
+  position: relative;
+  width: 300px;
+}
+
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.div-4:hover .overlay2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+.div-5 {
+  position: relative;
+  width: 300px;
+}
+
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 10%;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.div-5:hover .overlay3 {
+  opacity: 1;
+}
+
+.text3 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  right:0.1%;
+}
+
 .div-main {
   width: 100vw;
   display: flex;
@@ -95,7 +192,7 @@ img:hover {
     font-family: 'Changa', sans-serif;
     text-align: center;
     border-color: white;
-    border-width:5px;
+    border-width:3px;
     border-style: solid;
     border-radius: 5px;
     background-color: black;
@@ -194,7 +291,7 @@ img:hover {
     font-family: 'Changa', sans-serif;
     text-align: center;
     border-color: white;
-    border-width:5px;
+    border-width:3px;
     border-style: solid;
     border-radius: 5px;
     background-color: black;
@@ -279,7 +376,7 @@ img:hover {
     font-family: 'Changa', sans-serif;
     text-align: center;
     border-color: white;
-    border-width:5px;
+    border-width:3px;
     border-style: solid;
     border-radius: 5px;
     background-color: black;
@@ -317,7 +414,8 @@ font-family: 'Changa', sans-serif;
 .div-14{
   color: white;
   font-family: 'Changa', sans-serif;
-  text-align: left;
+  text-align: center;
+
 }
 
 .div-14a{
