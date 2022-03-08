@@ -1,12 +1,26 @@
+* {
+  box-sizing: border-box;
+}
 body, html {
 margin:0;
 padding:0;
 }
+body {
+  font-size: 1vw;
+}
 h1{
   text-align:center;
 }
-h2{
-  text-align:center;
+img{
+  width:300px;height:auto;
+}
+.div-main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.div-main>* {
+  border: 2px solid white;
 }
 .flex-container1{
   display: flex;
@@ -15,8 +29,8 @@ h2{
   justify-content:center;
   background-image: url("background_1_01.jpg");
   background-size: cover;
-  min-height: 100vh;
-
+  width: 100%;
+  height: calc(100vw * (834/1500));
 }
 
 .div-1{
@@ -41,7 +55,8 @@ h2{
   justify-content:space-around;
   background-image: url("background_2_02.jpg");
   background-size: cover;
-  min-height: 100vh;
+  width: 100%;
+  height: calc(100vw * (945/1500));
   background-position: center center;
 }
 .div-3{
@@ -66,15 +81,16 @@ h2{
 .flex-container3{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content: flex-start;
   background-image: url("background_3_03.jpg");
   background-size: cover;
-  min-height: 100vh;
+  width: 100%;
+  height: calc(100vw * (2374/1500));
 }
 .div-6{
     color: white;
-    font-size: 150%;
+    font-size: 250%;
     font-family:garamond;
     text-align: center;
     border-color: white;
@@ -85,61 +101,135 @@ h2{
 }
 .div-7{
     color: white;
-    font-size: 200%;
     font-family:garamond;
     text-align: left;
-    width:50%;
-    height:auto;
-    margin:auto;
+
 }
-.div-a{
+.div-7a{
+  font-size:250%;
   text-align:center;
+  width: 75%;
+  height:auto;
+  margin:auto;
+}
+.div-7b{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
+}
+.div-7c{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
 }
 .div-8{
     color: white;
-    font-size: 200%;
     font-family:garamond;
-    text-align: center;
-    width:50%;
-    height:auto;
-    margin:auto;
+    text-align: left;
+
 }
+.div-8a{
+  font-size:250%;
+  text-align:center;
+  width: 75%;
+  height:auto;
+  margin:auto;
+}
+.div-8b{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
+}
+.div-8c{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
+}
+
 .flex-container4{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url("background_4_04.jpg");
   background-size: cover;
-  min-height: 100vh;
+  width: 100%;
+  height: calc(100vw * (2369/1500));
+
 
 }
 .div-9{
     color: white;
-    font-size: 150%;
+    font-size: 250%;
     font-family:garamond;
     text-align: center;
+    border-color: white;
+    border-width:5px;
+    border-style: solid;
+    border-radius: 5px;
 }
 .div-10{
-    color: white;
-    font-size: 150%;
-    font-family:garamond;
-    text-align: center;
+  color: white;
+  font-family:garamond;
+  text-align: left;
+}
+.div-10a{
+  font-size:250%;
+  text-align:center;
+  width: 75%;
+  height:auto;
+  margin:auto;
+}
+.div-10b{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
+}
+.div-10c{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
 }
 .div-11{
-    color: white;
-    font-size: 150%;
-    font-family:garamond;
-    text-align: center;
+  color: white;
+  font-family:garamond;
+  text-align: left;
 }
+.div-11a{
+  font-size:250%;
+  text-align:center;
+  width: 75%;
+  height:auto;
+  margin:auto;
+}
+.div-11b{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
+}
+.div-11c{
+  width: 50%;
+  height:auto;
+  margin:auto;
+  font-size: 200%;
+}
+
 .flex-container5{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url("background_5_05.jpg");
   background-size: cover;
-  min-height: 100vh;
+  width: 100%;
+  height: calc(100vw * (2416/1500));
 
 }
 .div-12{
