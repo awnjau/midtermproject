@@ -100,7 +100,7 @@ a:hover {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 10%;
+  opacity: 20%;
   transition: .5s ease;
   background-color:black;
 }
@@ -188,6 +188,7 @@ a:hover {
   height: calc(100vw * (2374/1500));
 }
 .div-6{
+    padding:20px;
     color: white;
     font-size: 250%;
     font-family: 'Changa', sans-serif;
@@ -287,6 +288,7 @@ a:hover {
 
 }
 .div-9{
+    padding:20px;
     color: white;
     font-size: 250%;
     font-family: 'Changa', sans-serif;
@@ -372,6 +374,7 @@ a:hover {
 
 }
 .div-12{
+    padding:20px;
     color: white;
     font-size: 250%;
     font-family: 'Changa', sans-serif;
