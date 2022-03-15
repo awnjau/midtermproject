@@ -13,7 +13,7 @@ h1{
   text-align:center;
 }
 img{
-  width:350px;height:auto;
+  width:250px;height:auto;
 
 }
 a:visited {
@@ -152,7 +152,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content:space-around;
-  background-image: url("background_2_02.jpg");
+  background-image: url("accbackground_2_02.jpg");
   background-size: cover;
   width: 100%;
   height: calc(100vw * (945/1500));
@@ -182,7 +182,7 @@ a:hover {
   flex-direction: column;
   align-items:center;
   justify-content: flex-start;
-  background-image: url("background_3_03.jpg");
+  background-image: url("accbackground_3_03.jpg");
   background-size: cover;
   width: 100%;
   height: calc(100vw * (2374/1500));
@@ -280,7 +280,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-image: url("background_4_04.jpg");
+  background-image: url("accbackground_4_04.jpg");
   background-size: cover;
   width: 100%;
   height: calc(100vw * (2369/1500));
@@ -367,7 +367,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-image: url("background_5_05.jpg");
+  background-image: url("accbackground_5_05.jpg");
   background-size: cover;
   width: 100%;
   height: calc(100vw * (2416/1500));
